@@ -15,10 +15,10 @@ body{
      gap: 20px;
     }
 .text{
-    width: 35%;
-    height: 200px;
+    width: 40%;
+    height: 500px;
     padding: 20px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
    
 }
 .text h1{
@@ -27,10 +27,34 @@ body{
 }
 .form{
     width: 50%;
-    height: 350px;
-    background-color: blue;
+    height: 500px;
+    /* background-color: blue; */
+    padding: 20px;
 }
 input{
     display: block;
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+#message{
+    height: 150px;
+}
+#submit{
+    width: 180px;
+    height: 55px;
+    border: none;
+    background-color: rgb(50, 171, 50);
+    color: #f4f4f4;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+p{
+    margin: 20px 0px;
 }
 

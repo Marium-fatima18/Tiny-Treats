@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: antiquewhite;
+     background-color: rgb(235, 193, 199);
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
@@ -134,4 +134,23 @@ body {
     background-color : rgb(188, 55, 78); 
     color: #f4f4f4;
     font-weight: bolder;
+    transition: 0.3s ease;
 }
+.contact button:hover {
+    background-color: rgb(160, 40, 60);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(188, 55, 78, 0.5);
+}
+.main-img img,
+.aside1 img,
+.aside2 img {
+    transition: transform 0.4s ease;
+}
+
+.main-img img:hover,
+.aside1 img:hover,
+.aside2 img:hover {
+    transform: scale(1.05);
+}
+
+

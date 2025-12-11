@@ -57,4 +57,6 @@ input{
 p{
     margin: 20px 0px;
 }
-
+.error{
+    color: red;
+}
